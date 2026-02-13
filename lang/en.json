@@ -46,7 +46,7 @@
                 "multiple": "check out with multiple addresses",
                 "or": "or"
             },
-            "button": "Check out",
+            "button": "Check Out Now",
             "empty_cart": "Your cart is empty",
             "title": "Click here to proceed to checkout",
             "item": "Item",
@@ -56,7 +56,7 @@
             "subtotal": "Subtotal",
             "enter_code": "Coupon code / Gift certificate",
             "gift_wrapping": "Gift wrapping",
-            "shipping": "Shipping",
+            "shipping": "Estimate Shipping & Taxes",
             "grand_total": "Grand total",
             "select": "Select",
             "update": "Update shipping cost",
@@ -64,7 +64,7 @@
             "in_total": "in total!"
         },
         "preview": {
-            "checkout_now": "Check out now",
+            "checkout_now": "Check Out",
             "checkout_multiple": "or check out with multiple addresses",
             "view_cart": "View Cart"
         },
@@ -73,9 +73,6 @@
         "invalid_entry_message": "[ENTRY] is not a valid entry",
         "coupon_code": "Coupon Code",
         "discount": "Discount",
-        "discounts": "Discounts",
-        "manual_discount": "Manual discount",
-        "automatic_discount": "Automatic discount",
         "included_in_total": " Included in Total",
         "remove_file": "Remove this file",
         "freeshipping": "Free Shipping",
@@ -134,7 +131,7 @@
             "preview": "Preview"
         },
         "added_to_cart": {
-            "what_next": "Ok, {num_products, plural, one {1 item was} other {# items were}} added to your cart. What's next?",
+            "what_next": "Your wall will thank you! {num_products, plural, one {1 item was} other {# items were}} added to your cart.",
             "your_cart_contains": "Your cart contains {num_products, plural, one {1 item} other {# items}}",
             "proceed_to_checkout": "Proceed to checkout",
             "order_subtotal": "Order subtotal",
@@ -272,7 +269,7 @@
         "heading": "New Account",
         "created": {
             "heading": "Your account has been created",
-            "intro": "Thank you for creating your account at {store_name}. Your account details have been emailed to {email}",
+            "intro": "Thank you for creating your account at {store_name}. Your account details have been emailed to <strong>{email}</strong>",
             "continue": "Continue Shopping"
         },
         "recaptcha_title": "Google recaptcha"

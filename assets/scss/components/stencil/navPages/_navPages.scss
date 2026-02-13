@@ -393,7 +393,13 @@ li.navPages-item a {
         }
     }
 }
-
+.navPage-subMenu-item-indent, .navPage-childList-item-indent {
+    margin-left:10px !important;
+}
+a.navPage-subMenu-action.navPages-action.navPage-subMenu-item-indent:hover {
+    margin-left:15px !important;
+    transition:.3s;
+}
 .navPage-subMenu-item-child,
 .navPage-subMenu-item-parent {
     width: 100%;
@@ -404,11 +410,18 @@ li.navPages-item a {
             padding-right: spacing("single");
             width: 100%;
         }
+        .navPage-subMenu-action.is-open,
+        .navPage-subMenu-action:hover {
+            background: $navPage-subMenu-item--is-highlighted-background;
+            color: #096bc4;
+            font-weight: 500;
+            opacity: 0.3;
+        }
     }
 }
 
 .navPage-subMenu-action {
-    padding: spacing("half") 0;
+    padding: 0 !important;
 
     @include breakpoint("medium") {
         padding: spacing("half") 0 (spacing("half") + spacing("quarter"));
@@ -439,11 +452,27 @@ li.navPages-item a {
 //
 // Child pages of sub pages navigation lists
 // -----------------------------------------------------------------------------
+
+.navPage-childList-item a {
+    border-bottom: none;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -.5px;
+    color: #000;
+    margin-left: 15px;
+    line-height: 1.4rem;
+    margin-top:-1px;
+    margin-bottom:-3px;
+}
+
 .navPage-childList-action {
     font-weight: fontWeight("normal");
     padding: 0 0 spacing("quarter");
 }
-
+.navPage-childList-item.navPage-childList-item-small a {
+    line-height:1.5rem;
+}
 
 //
 // Quick search inside the mobile nav
@@ -469,8 +498,6 @@ li.navPages-item a {
         margin-bottom: 0;
     }
 }
-
-
 //
 // NavPages user section for mobile nav panel
 // -----------------------------------------------------------------------------

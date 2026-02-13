@@ -481,16 +481,17 @@ input#shipping-city.form-input, input#shipping-zip.form-input, input#couponcode.
             }
 
             .cart-total-savings {
-                font-family: $body-font-family;
+                
                 font-size: fontSize("smaller");
-                font-weight: fontWeight("bold");
+                font-weight: 500;
                 color: stencilColor("color-textSecondary");
                 display: block;
                 margin-top: spacing("eighth");
             }
 
             .cart-savings-amount {
-                color: stencilColor("color-success");
+                color: #0ab285;
+		font-weight:700;
             }
         }
     }

@@ -7,7 +7,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -0px -0px;
 }
 .menu-nba-boston-celtics {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -0px -50px;
@@ -18,7 +18,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -0px -50px;
 }
 .menu-nba-brooklyn-nets {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -50px -0px;
@@ -29,7 +29,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -50px -0px;
 }
 .menu-nba-charlotte-hornets {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -50px -50px;
@@ -40,7 +40,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -50px -50px;
 }
 .menu-nba-cleveland-cavaliers {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -0px -100px;
@@ -51,7 +51,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -0px -100px;
 }
 .menu-nba-chicago-bulls {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -50px -100px;
@@ -62,7 +62,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -50px -100px;
 }
 .menu-nba-dallas-mavericks {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -100px -0px;
@@ -73,7 +73,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -100px -0px;
 }
 .menu-nba-denver-nuggets {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -100px -50px;
@@ -84,7 +84,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -100px -50px;
 }
 .menu-nba-detroit-pistons {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -100px -100px;
@@ -95,7 +95,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -100px -100px;
 }
 .menu-nba-golden-state-warriors {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -0px -150px;
@@ -106,7 +106,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -0px -150px;
 }
 .menu-nba-houston-rockets {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -50px -150px;
@@ -117,7 +117,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -50px -150px;
 }
 .menu-nba-indiana-pacers {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -100px -150px;
@@ -128,7 +128,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -100px -150px;
 }
 .menu-nba-la-clippers {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -150px -0px;
@@ -139,7 +139,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -150px -0px;
 }
 .menu-nba-los-angeles-lakers {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -150px -50px;
@@ -150,7 +150,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -150px -50px;
 }
 .menu-nba-memphis-grizzlies {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -150px -100px;
@@ -161,7 +161,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -150px -100px;
 }
 .menu-nba-miami-heat {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -150px -150px;
@@ -172,7 +172,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -150px -150px;
 }
 .menu-nba-milwaukee-bucks {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -0px -200px;
@@ -183,7 +183,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -0px -200px;
 }
 .menu-nba-minnesota-timberwolves {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -50px -200px;
@@ -194,7 +194,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -50px -200px;
 }
 .menu-nba-nba {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -100px -200px;
@@ -205,7 +205,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -100px -200px;
 }
 .menu-nba-new-orleans-pelicans {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -150px -200px;
@@ -216,7 +216,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -150px -200px;
 }
 .menu-nba-new-york-knicks {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -200px -0px;
@@ -227,7 +227,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -200px -0px;
 }
 .menu-nba-oklahoma-city-thunder {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -200px -50px;
@@ -238,7 +238,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -200px -50px;
 }
 .menu-nba-orlando-magic {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -200px -100px;
@@ -249,7 +249,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -200px -100px;
 }
 .menu-nba-philadelphia-76ers {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -200px -150px;
@@ -260,7 +260,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -200px -150px;
 }
 .menu-nba-phoenix-suns {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -200px -200px;
@@ -271,7 +271,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -200px -200px;
 }
 .menu-nba-portland-trail-blazers {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -0px -250px;
@@ -282,7 +282,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -0px -250px;
 }
 .menu-nba-sacramento-kings {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -50px -250px;
@@ -293,7 +293,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -50px -250px;
 }
 .menu-nba-san-antonio-spurs {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -100px -250px;
@@ -304,7 +304,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -100px -250px;
 }
 .menu-nba-toronto-raptors {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -150px -250px;
@@ -315,7 +315,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -150px -250px;
 }
 .menu-nba-utah-jazz {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -200px -250px;
@@ -326,7 +326,7 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -200px -250px;
 }
 .menu-nba-washington-wizards {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/nba-spritesheet-48_20260216.png') no-repeat -250px -0px;
@@ -337,5 +337,5 @@
    margin-top: -3px;
    zoom: 0.5;
    -moz-transform: scale(0.5);
-   -moz-transform-origin: ;
+   -moz-transform-origin: -250px -0px;
 }

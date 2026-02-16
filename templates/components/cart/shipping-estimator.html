@@ -1,6 +1,5 @@
 {{inject 'shippingCountryErrorMessage' (lang 'cart.shipping_estimator.empty_country_error')}}
 {{inject 'shippingProvinceErrorMessage' (lang 'cart.shipping_estimator.empty_province_error')}}
-
 {{#if shipping_cost}}
     <div class="cart-total-value">
         <div class="subtotal{{#unless multi_coupon_ui_enabled}} shipping-estimate-show{{/unless}}">
@@ -26,6 +25,7 @@
 <div id="add-shipping" class="shipping-estimator u-hidden">
     <form class="form estimator-form" data-shipping-estimator>
         <dl>
+<p class="world-ship-info">For international shipping, please <a href="{{base}}/faq/#shipping-global" target="_blank">visit this page</a>.</p>
             <dt class="estimator-form-label">
                 <label class="form-label" for="shipping-country">{{lang 'cart.shipping_estimator.select_a_country'}}</label>
             </dt>

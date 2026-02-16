@@ -490,7 +490,7 @@ input#shipping-city.form-input, input#shipping-zip.form-input, input#couponcode.
             }
 
             .cart-savings-amount {
-                color: #0ab285;
+                color: #0ab285 !important;
 		font-weight:700;
             }
         }
@@ -706,15 +706,21 @@ input#shipping-city.form-input, input#shipping-zip.form-input, input#couponcode.
 }
 
 .cart-coupon-item {
+    display: -ms-inline-flexbox;
     display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     gap: 0.5rem;
     padding: 0.5rem;
-    border: 1px solid stencilColor("color-coupon-pill-border");
-    color: stencilColor("color-coupon-pill-text");
+    border: 2px solid #c7c7c7;
+    color: #333333;
     max-width: 100%;
-    border-radius: 3px;
-    background: stencilColor("color-coupon-pill-background");
+    -webkit-border-radius:0;
+    -ms-border-radius:0;
+    border-radius: 0;
+    background: #FFF;
+}
 
     svg {
         fill: stencilColor("icon-color");

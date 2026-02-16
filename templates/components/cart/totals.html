@@ -1,4 +1,4 @@
-<ul class="cart-totals {{#if cart.multi_coupon_ui_enabled}}cart-total-enhanced{{/if}}">
+<ul class="cart-totals">
     <li class="cart-total">
         <div class="cart-total-label">
             <strong>{{lang 'cart.checkout.subtotal'}}{{#unless cart.multi_coupon_ui_enabled}}:{{/unless}}</strong>
@@ -48,11 +48,7 @@
                         <li class="cart-discount-item">
                             <div class="cart-discount-item-label">
                                 <i class="icon" aria-hidden="true"><svg><use href="#icon-promotions" /></svg></i>
-                                {{#if display_name}}
-                                    <span class="cart-coupon-name">{{display_name}} ({{code}})</span>
-                                {{else}}
                                     <span class="cart-coupon-name">{{code}}</span>
-                                {{/if}}
                             </div>
                             <div class="cart-discount-item-value">
                                 {{#if discount.value '===' 0}}-{{/if}}{{discount.formatted}}
@@ -66,7 +62,7 @@
     {{#if cart.gift_wrapping_cost.value}}
         <li class="cart-total">
             <div class="cart-total-label">
-                <strong>{{lang 'cart.checkout.gift_wrapping'}}{{#unless cart.multi_coupon_ui_enabled}}:{{/unless}}</strong>
+                <strong>{{lang 'cart.checkout.gift_wrapping'}}</strong>
             </div>
             <div class="cart-total-value">
                 <span>{{cart.gift_wrapping_cost.formatted}}</span>

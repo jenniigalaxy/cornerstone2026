@@ -19,7 +19,7 @@ nav.navPages {
     max-width:1900px;
 }
 %navPage-childList {
-    border-left: 1px solid $navPage-childList-borderColor;
+    border-left: 2px solid $navPage-childList-borderColor;
     margin: spacing("quarter") spacing("half");
     padding-left: spacing("half");
 }
@@ -46,18 +46,21 @@ nav.navPages {
     position: absolute;
     right: 0;
     z-index: zIndex("lower");
+    background:#fff;
 
     @include breakpoint("medium") {
-        background: transparent;
+        background: #dcdcdc;
         display: block;
         height: auto;
         padding: 0;
         position: relative;
+        max-height:41px;
     }
 
     &.is-open {
         display: block;
         padding-top: $header-height;
+        z-index: 0;
     }
 }
 
@@ -66,9 +69,7 @@ nav.navPages {
 // -----------------------------------------------------------------------------
 
 .navPages {
-    background-color: $navPages-backgroundColor;
-    height: 100%;
-    overflow-y: auto;
+    background-color: #e5e5e5;
     padding: spacing("single");
 
     @include breakpoint("medium") {
@@ -83,15 +84,18 @@ nav.navPages {
 
     ul {
         list-style: none;
+        font-family:Montserrat,Arial,sans-serif;
+        text-transform:uppercase;
     }
 
     .navPage-subMenu-list {
         @extend %navPage-childList;
-
         border-left: 0;
         list-style: none;
         margin-left: 0;
         padding-left: 0;
+        column-count:7;
+        column-gap:0;
 
         @include breakpoint("medium") {
             @include grid-row();
@@ -111,7 +115,7 @@ nav.navPages {
     }
 
     + .navPages-list {
-        border-top: 1px solid $navPages-list--user-borderColor;
+        border-top: 2px solid $navPages-list--user-borderColor;
         margin-top: spacing("half");
         padding-top: spacing("half");
     }
@@ -161,6 +165,7 @@ nav.navPages {
         padding: 11.7px; // (33 - 9.6) / 2
         transform: rotate(90deg);
         width: 35px;
+        display:none;
 
         @include breakpoint("medium") {
             @include square(8px);
@@ -183,29 +188,32 @@ nav.navPages {
         }
     }
 }
-
+li.navPages-item a {
+	padding-left:15px;
+}
 .navPages-action {
-    color: stencilColor("navPages-color");
+    padding: 11px 16px 8px;
+    color: #000;
     display: block;
-    font-size: fontSize("smaller");
-    font-weight: fontWeight("bold");
-    padding: spacing("half") 0;
+    font-size: 14px;
+    font-weight: 500;
     text-decoration: none;
     text-transform: uppercase;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
 
     @include breakpoint("medium") {
         display: inline-block;
-        padding: spacing("half") (spacing("half") + spacing("quarter")) (spacing("half") + spacing("quarter"));
 
         &.is-open {
-            background-color: $navPage-subMenu-item--is-highlighted-background;
+            background-color: #eee;
+	    color:#000;
         }
     }
 
     &.has-subMenu {
         .navPages-list:not(.navPages-list-depth-max) & {
             align-items: center;
-            display: flex;
             justify-content: space-between;
         }
     }
@@ -249,7 +257,7 @@ nav.navPages {
 
 .navPages-action-moreIcon {
     @include square(8px);
-    margin-left: spacing("half");
+    margin-left: spacing("quarter");
     transform: rotate(-90deg);
 
     @include breakpoint("medium") {
@@ -260,16 +268,7 @@ nav.navPages {
     .collapsible-icon-wrapper.is-open & {
         transform: rotate(0);
     }
-
-    .navPages-list:not(.navPages-list-depth-max) & {
-        @include square(11px);
-        margin: 0 spacing("single");
-
-        @include breakpoint("medium") {
-            @include square(8px);
-            margin: 0 0 0 spacing("half");
-        }
-    }
+    display:none;
 }
 
 
@@ -311,8 +310,8 @@ nav.navPages {
     outline: 0;
 
     @include breakpoint("medium") {
-        background-color: stencilColor("navPages-subMenu-backgroundColor");
-        padding: spacing("single") spacing("single") (spacing("single") + spacing("half")) !important;
+        background-color: #eee;
+        padding: 1.5rem .5rem 1rem .5rem !important;
         position: absolute;
         text-align: left;
 
@@ -329,16 +328,7 @@ nav.navPages {
 
     &.is-open {
         display: block;
-    }
-
-    .navPages-list:not(.navPages-list-depth-max) .navPages-action.has-subMenu + & {
-        .navPage-subMenu-list {
-            margin-right: 0;
-
-            @include breakpoint("medium") {
-                margin-right: auto;
-            }
-        }
+        margin-top:-1px;
     }
 }
 
@@ -375,11 +365,8 @@ nav.navPages {
 }
 
 .navPage-subMenu-item {
-    padding: spacing("half") 0;
-
     @include breakpoint("medium") {
-        @include grid-column(3);
-        padding: 0 0.75rem !important; // 1
+        padding: 0 0.25rem !important; // 1
 
         .navPages-action {
             text-transform: none;
@@ -387,12 +374,24 @@ nav.navPages {
         }
 
         > .navPage-subMenu-action {
-            border-bottom: 1px solid stencilColor("navPages-subMenu-separatorColor");
-            margin-bottom: spacing("half") + spacing("quarter");
+            border-bottom: none;
+            font-weight:500;
+            margin-bottom: 1px;
+            font-family:'Montserrat',sans-serif;
+            font-size:14px;
+            letter-spacing:-.5px;
+            color:#000;
+            height:26px;
         }
     }
 }
-
+.navPage-subMenu-item-indent, .navPage-childList-item-indent {
+    margin-left:10px !important;
+}
+a.navPage-subMenu-action.navPages-action.navPage-subMenu-item-indent:hover {
+    margin-left:15px !important;
+    transition:.3s;
+}
 .navPage-subMenu-item-child,
 .navPage-subMenu-item-parent {
     width: 100%;
@@ -403,34 +402,21 @@ nav.navPages {
             padding-right: spacing("single");
             width: 100%;
         }
+        .navPage-subMenu-action.is-open,
+        .navPage-subMenu-action:hover {
+            background: $navPage-subMenu-item--is-highlighted-background;
+            color: #096bc4;
+            font-weight: 500;
+            opacity: 0.3;
+        }
     }
 }
 
 .navPage-subMenu-action {
-    padding: spacing("half") 0;
+    padding: 0 !important;
 
     @include breakpoint("medium") {
         padding: spacing("half") 0 (spacing("half") + spacing("quarter"));
-    }
-
-    .navPages-list:not(.navPages-list-depth-max) & {
-        padding: 0 0 0 spacing("single");
-
-        @include breakpoint("medium") {
-            padding: spacing("half") 0 (spacing("half") + spacing("quarter"));
-        }
-    }
-
-    .collapsible-icon-wrapper {
-        box-sizing: content-box;
-        display: inline-block;
-        height: 100%;
-        text-align: right;
-        width: 100%;
-
-        @include breakpoint("medium") {
-            display: none;
-        }
     }
 }
 
@@ -438,11 +424,27 @@ nav.navPages {
 //
 // Child pages of sub pages navigation lists
 // -----------------------------------------------------------------------------
+
+.navPage-childList-item a {
+    border-bottom: none;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -.5px;
+    color: #000;
+    margin-left: 15px;
+    line-height: 1.4rem;
+    margin-top:-1px;
+    margin-bottom:-3px;
+}
+
 .navPage-childList-action {
     font-weight: fontWeight("normal");
     padding: 0 0 spacing("quarter");
 }
-
+.navPage-childList-item.navPage-childList-item-small a {
+    line-height:1.5rem;
+}
 
 //
 // Quick search inside the mobile nav
@@ -468,8 +470,6 @@ nav.navPages {
         margin-bottom: 0;
     }
 }
-
-
 //
 // NavPages user section for mobile nav panel
 // -----------------------------------------------------------------------------
@@ -495,4 +495,87 @@ nav.navPages {
             padding: spacing("half") spacing("single");
         }
     }
+}
+
+// Custom Nav Additions
+// -----------------------------------------------------------------------------
+div.menu-section-custom {
+    max-width:1900px;
+    width:100%;
+    border-left:0;
+    margin:auto;
+    padding-left:0;
+}
+div.menu-section-custom.custom-inner {
+    margin-top:-.5rem;
+}
+.menu-heading-first {
+    color:#096bc4 !important;
+}
+.menu-heading {
+    color:#096bc4 !important;
+    margin:20px 0 5px 28px;
+}
+img.menu-icon-parent {
+    float:left;
+    max-width:28px;
+    margin:-4px 5px 0 -4px;
+}
+img.menu-icon-child {
+    margin:0 5px 5px 0;
+    max-width:24px;
+}
+.navPages .navPage-subMenu-list {
+    max-width:1900px;
+}
+.navPage-subMenu-item>.navPage-subMenu-action:hover {
+    color:#888;
+    margin-left:5px;
+    transition:.3s
+}
+.navPage-childList-item a:hover {
+    color:#888;
+}
+.navPages-item {
+    color:#000;
+    padding-left:0;
+}
+.navPages-item a {
+    padding-left:10px;
+}
+// Custom Menu Additions
+.navPages .navPage-subMenu-list.navPage-list-nascar {
+    column-count:6;
+}
+.navPages .navPage-subMenu-list.navPage-list-icon {
+    column-count:6;
+}
+.menu-section-more {
+    max-width:1900px;
+}
+div.menu-section-golf {
+    margin-top:-20px !important;
+}
+.navPage-childList-tricky {
+    margin-bottom:0;
+}
+.navPages-moreitem {
+    margin:auto;
+    max-width:1900px;
+}
+.navPages-moreitem a.navPages-action.has-subMenu {
+    padding:0 0 .5em .25em;
+    color:#096bc4;
+}
+.navPages-moreitem-worldskylines a.navPages-action.has-subMenu {
+    margin-top:2em;
+}
+li.navPages-item.navPages-item-skylines.navPages-item-skylines-mobile {
+    display:none;
+}
+.navPages-moreitem.navPages-moreitem-nationalparks  {
+    display:none;
+}
+.navPages-moreitem.navPages-moreitem-icons  {
+    display:none;
 }

@@ -1,0 +1,320 @@
+.nhl {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -0px -0px;
+   width: 100px;
+   height: 100px;
+}
+.nhl100 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -0px -102px;
+   width: 100px;
+   height: 100px;
+}
+.nhlava {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -102px -0px;
+   width: 100px;
+   height: 100px;
+}
+.nhlbjac {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -102px -102px;
+   width: 100px;
+   height: 100px;
+}
+.nhlblack {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -0px -204px;
+   width: 100px;
+   height: 100px;
+}
+.nhlblu {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -102px -204px;
+   width: 100px;
+   height: 100px;
+}
+.nhlcanu {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -204px -0px;
+   width: 100px;
+   height: 100px;
+}
+.nhlbru {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -204px -102px;
+   width: 100px;
+   height: 100px;
+}
+.nhlca {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -204px -204px;
+   width: 100px;
+   height: 100px;
+}
+.nhlcap {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -0px -306px;
+   width: 100px;
+   height: 100px;
+}
+.nhlcc {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -102px -306px;
+   width: 100px;
+   height: 100px;
+}
+.nhlcoy {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -204px -306px;
+   width: 100px;
+   height: 100px;
+}
+.nhldev {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -306px -0px;
+   width: 100px;
+   height: 100px;
+}
+.nhlduck {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -306px -102px;
+   width: 100px;
+   height: 100px;
+}
+.nhlflam {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -306px -204px;
+   width: 100px;
+   height: 100px;
+}
+.nhlfly {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -306px -306px;
+   width: 100px;
+   height: 100px;
+}
+.nhlgok {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -0px -408px;
+   width: 100px;
+   height: 100px;
+}
+.nhlhc {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -102px -408px;
+   width: 100px;
+   height: 100px;
+}
+.nhlhc16 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -204px -408px;
+   width: 100px;
+   height: 100px;
+}
+.nhlhc19 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -306px -408px;
+   width: 100px;
+   height: 100px;
+}
+.nhlhur {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -408px -0px;
+   width: 100px;
+   height: 100px;
+}
+.nhlisl {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -408px -102px;
+   width: 100px;
+   height: 100px;
+}
+.nhljet {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -408px -204px;
+   width: 100px;
+   height: 100px;
+}
+.nhlking {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -408px -306px;
+   width: 100px;
+   height: 100px;
+}
+.nhlkrak {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -408px -408px;
+   width: 100px;
+   height: 100px;
+}
+.nhlligh {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -0px -510px;
+   width: 100px;
+   height: 100px;
+}
+.nhlmam {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -102px -510px;
+   width: 100px;
+   height: 100px;
+}
+.nhlmap {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -204px -510px;
+   width: 100px;
+   height: 100px;
+}
+.nhloil {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -306px -510px;
+   width: 100px;
+   height: 100px;
+}
+.nhlpan {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -408px -510px;
+   width: 100px;
+   height: 100px;
+}
+.nhlpen {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -510px -0px;
+   width: 100px;
+   height: 100px;
+}
+.nhlpred {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -510px -102px;
+   width: 100px;
+   height: 100px;
+}
+.nhlrang {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -510px -204px;
+   width: 100px;
+   height: 100px;
+}
+.nhlsab {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -510px -306px;
+   width: 100px;
+   height: 100px;
+}
+.nhlsc15 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -510px -408px;
+   width: 100px;
+   height: 100px;
+}
+.nhlsc {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -510px -510px;
+   width: 100px;
+   height: 100px;
+}
+.nhlsc16 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -0px -612px;
+   width: 100px;
+   height: 100px;
+}
+.nhlsc17 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -102px -612px;
+   width: 100px;
+   height: 100px;
+}
+.nhlsc18 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -204px -612px;
+   width: 100px;
+   height: 100px;
+}
+.nhlsc19 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -306px -612px;
+   width: 100px;
+   height: 100px;
+}
+.nhlsc20 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -408px -612px;
+   width: 100px;
+   height: 100px;
+}
+.nhlsc21 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -510px -612px;
+   width: 100px;
+   height: 100px;
+}
+.nhlsc22 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -612px -0px;
+   width: 100px;
+   height: 100px;
+}
+.nhlsen {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -612px -102px;
+   width: 100px;
+   height: 100px;
+}
+.nhlshar {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -612px -204px;
+   width: 100px;
+   height: 100px;
+}
+.nhlss {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -612px -306px;
+   width: 100px;
+   height: 100px;
+}
+.nhlss15 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -612px -408px;
+   width: 100px;
+   height: 100px;
+}
+.nhlss17 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -612px -510px;
+   width: 100px;
+   height: 100px;
+}
+.nhlss22 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -612px -612px;
+   width: 100px;
+   height: 100px;
+}
+.nhlss23 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -0px -714px;
+   width: 100px;
+   height: 100px;
+}
+.nhlss25 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -102px -714px;
+   width: 100px;
+   height: 100px;
+}
+.nhlss26 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -204px -714px;
+   width: 100px;
+   height: 100px;
+}
+.nhlstar {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -306px -714px;
+   width: 100px;
+   height: 100px;
+}
+.nhlutah {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -408px -714px;
+   width: 100px;
+   height: 100px;
+}
+.nhlwc {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -510px -714px;
+   width: 100px;
+   height: 100px;
+}
+.nhlwc16 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -612px -714px;
+   width: 100px;
+   height: 100px;
+}
+.nhlwc19 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -714px -0px;
+   width: 100px;
+   height: 100px;
+}
+.nhlwc22 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -714px -102px;
+   width: 100px;
+   height: 100px;
+}
+.nhlwc20 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -714px -204px;
+   width: 100px;
+   height: 100px;
+}
+.nhlwc23 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -714px -306px;
+   width: 100px;
+   height: 100px;
+}
+.nhlwc24 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -714px -408px;
+   width: 100px;
+   height: 100px;
+}
+.nhlwc26 {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -714px -510px;
+   width: 100px;
+   height: 100px;
+}
+.nhlwild {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -714px -612px;
+   width: 100px;
+   height: 100px;
+}
+.nhlwing {
+   background: url('nhl-spritesheet-100_20260225.png') no-repeat -714px -714px;
+   width: 100px;
+   height: 100px;
+}

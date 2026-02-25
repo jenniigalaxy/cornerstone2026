@@ -1,0 +1,750 @@
+.airf {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -0px -0px;
+   width: 48px;
+   height: 48px;
+}
+.alstu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -0px -50px;
+   width: 48px;
+   height: 48px;
+}
+.apsu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -50px -0px;
+   width: 48px;
+   height: 48px;
+}
+.armnav {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -50px -50px;
+   width: 48px;
+   height: 48px;
+}
+.army {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -0px -100px;
+   width: 48px;
+   height: 48px;
+}
+.arsu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -50px -100px;
+   width: 48px;
+   height: 48px;
+}
+.asu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -100px -0px;
+   width: 48px;
+   height: 48px;
+}
+.aub {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -100px -50px;
+   width: 48px;
+   height: 48px;
+}
+.augu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -100px -100px;
+   width: 48px;
+   height: 48px;
+}
+.bayu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -0px -150px;
+   width: 48px;
+   height: 48px;
+}
+.bcu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -50px -150px;
+   width: 48px;
+   height: 48px;
+}
+.boisu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -100px -150px;
+   width: 48px;
+   height: 48px;
+}
+.bosc {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -150px -0px;
+   width: 48px;
+   height: 48px;
+}
+.bten {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -150px -50px;
+   width: 48px;
+   height: 48px;
+}
+.byu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -150px -100px;
+   width: 48px;
+   height: 48px;
+}
+.cfp-bowl {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -150px -150px;
+   width: 48px;
+   height: 48px;
+}
+.cfp-championship {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -0px -200px;
+   width: 48px;
+   height: 48px;
+}
+.clem {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -50px -200px;
+   width: 48px;
+   height: 48px;
+}
+.cmiu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -100px -200px;
+   width: 48px;
+   height: 48px;
+}
+.coc {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -150px -200px;
+   width: 48px;
+   height: 48px;
+}
+.cosu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -200px -0px;
+   width: 48px;
+   height: 48px;
+}
+.cotton {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -200px -50px;
+   width: 48px;
+   height: 48px;
+}
+.creu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -200px -100px;
+   width: 48px;
+   height: 48px;
+}
+.cws {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -200px -150px;
+   width: 48px;
+   height: 48px;
+}
+.duke {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -200px -200px;
+   width: 48px;
+   height: 48px;
+}
+.ecu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -0px -250px;
+   width: 48px;
+   height: 48px;
+}
+.ewau {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -50px -250px;
+   width: 48px;
+   height: 48px;
+}
+.famu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -100px -250px;
+   width: 48px;
+   height: 48px;
+}
+.flau {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -150px -250px;
+   width: 48px;
+   height: 48px;
+}
+.frst {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -200px -250px;
+   width: 48px;
+   height: 48px;
+}
+.fsu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -250px -0px;
+   width: 48px;
+   height: 48px;
+}
+.gasu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -250px -50px;
+   width: 48px;
+   height: 48px;
+}
+.gat {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -250px -100px;
+   width: 48px;
+   height: 48px;
+}
+.gonu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -250px -150px;
+   width: 48px;
+   height: 48px;
+}
+.grsu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -250px -200px;
+   width: 48px;
+   height: 48px;
+}
+.hamu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -250px -250px;
+   width: 48px;
+   height: 48px;
+}
+.howu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -0px -300px;
+   width: 48px;
+   height: 48px;
+}
+.hvd {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -50px -300px;
+   width: 48px;
+   height: 48px;
+}
+.iasu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -100px -300px;
+   width: 48px;
+   height: 48px;
+}
+.ilsu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -150px -300px;
+   width: 48px;
+   height: 48px;
+}
+.inu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -200px -300px;
+   width: 48px;
+   height: 48px;
+}
+.jmu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -250px -300px;
+   width: 48px;
+   height: 48px;
+}
+.jsu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -300px -0px;
+   width: 48px;
+   height: 48px;
+}
+.ksu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -300px -50px;
+   width: 48px;
+   height: 48px;
+}
+.lafayette {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -300px -100px;
+   width: 48px;
+   height: 48px;
+}
+.lehigh {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -300px -150px;
+   width: 48px;
+   height: 48px;
+}
+.loyu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -300px -200px;
+   width: 48px;
+   height: 48px;
+}
+.lsu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -300px -250px;
+   width: 48px;
+   height: 48px;
+}
+.maru {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -300px -300px;
+   width: 48px;
+   height: 48px;
+}
+.mostu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -0px -350px;
+   width: 48px;
+   height: 48px;
+}
+.mqu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -50px -350px;
+   width: 48px;
+   height: 48px;
+}
+.mssu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -100px -350px;
+   width: 48px;
+   height: 48px;
+}
+.msu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -150px -350px;
+   width: 48px;
+   height: 48px;
+}
+.mtsu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -200px -350px;
+   width: 48px;
+   height: 48px;
+}
+.navy {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -250px -350px;
+   width: 48px;
+   height: 48px;
+}
+.ncaa {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -300px -350px;
+   width: 48px;
+   height: 48px;
+}
+.ncat {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -350px -0px;
+   width: 48px;
+   height: 48px;
+}
+.nccu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -350px -50px;
+   width: 48px;
+   height: 48px;
+}
+.ncsu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -350px -100px;
+   width: 48px;
+   height: 48px;
+}
+.ndsu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -350px -150px;
+   width: 48px;
+   height: 48px;
+}
+.nwu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -350px -200px;
+   width: 48px;
+   height: 48px;
+}
+.oksu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -350px -250px;
+   width: 48px;
+   height: 48px;
+}
+.orange {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -350px -300px;
+   width: 48px;
+   height: 48px;
+}
+.orsu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -350px -350px;
+   width: 48px;
+   height: 48px;
+}
+.osu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -0px -400px;
+   width: 48px;
+   height: 48px;
+}
+.psu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -50px -400px;
+   width: 48px;
+   height: 48px;
+}
+.puru {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -100px -400px;
+   width: 48px;
+   height: 48px;
+}
+.rmu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -150px -400px;
+   width: 48px;
+   height: 48px;
+}
+.rose {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -200px -400px;
+   width: 48px;
+   height: 48px;
+}
+.rutu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -250px -400px;
+   width: 48px;
+   height: 48px;
+}
+.saintjohns {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -300px -400px;
+   width: 48px;
+   height: 48px;
+}
+.scar {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -350px -400px;
+   width: 48px;
+   height: 48px;
+}
+.scsu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -400px -0px;
+   width: 48px;
+   height: 48px;
+}
+.sdcas {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -400px -50px;
+   width: 48px;
+   height: 48px;
+}
+.sdsu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -400px -100px;
+   width: 48px;
+   height: 48px;
+}
+.sfa {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -400px -150px;
+   width: 48px;
+   height: 48px;
+}
+.smu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -400px -200px;
+   width: 48px;
+   height: 48px;
+}
+.souu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -400px -250px;
+   width: 48px;
+   height: 48px;
+}
+.stan {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -400px -300px;
+   width: 48px;
+   height: 48px;
+}
+.stthomas {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -400px -350px;
+   width: 48px;
+   height: 48px;
+}
+.syru {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -400px -400px;
+   width: 48px;
+   height: 48px;
+}
+.tcu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -0px -450px;
+   width: 48px;
+   height: 48px;
+}
+.tnsu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -50px -450px;
+   width: 48px;
+   height: 48px;
+}
+.troy {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -100px -450px;
+   width: 48px;
+   height: 48px;
+}
+.tusku {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -150px -450px;
+   width: 48px;
+   height: 48px;
+}
+.txam {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -200px -450px;
+   width: 48px;
+   height: 48px;
+}
+.txt {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -250px -450px;
+   width: 48px;
+   height: 48px;
+}
+.ual {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -300px -450px;
+   width: 48px;
+   height: 48px;
+}
+.ualb {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -350px -450px;
+   width: 48px;
+   height: 48px;
+}
+.uar {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -400px -450px;
+   width: 48px;
+   height: 48px;
+}
+.uaz {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -450px -0px;
+   width: 48px;
+   height: 48px;
+}
+.ucalb {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -450px -50px;
+   width: 48px;
+   height: 48px;
+}
+.ucf {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -450px -100px;
+   width: 48px;
+   height: 48px;
+}
+.ucin {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -450px -150px;
+   width: 48px;
+   height: 48px;
+}
+.ucla {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -450px -200px;
+   width: 48px;
+   height: 48px;
+}
+.uco {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -450px -250px;
+   width: 48px;
+   height: 48px;
+}
+.uconn {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -450px -300px;
+   width: 48px;
+   height: 48px;
+}
+.uday {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -450px -350px;
+   width: 48px;
+   height: 48px;
+}
+.ude {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -450px -400px;
+   width: 48px;
+   height: 48px;
+}
+.ufl {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -450px -450px;
+   width: 48px;
+   height: 48px;
+}
+.uga {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -0px -500px;
+   width: 48px;
+   height: 48px;
+}
+.uhou {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -50px -500px;
+   width: 48px;
+   height: 48px;
+}
+.uia {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -100px -500px;
+   width: 48px;
+   height: 48px;
+}
+.uil {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -150px -500px;
+   width: 48px;
+   height: 48px;
+}
+.ukan {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -200px -500px;
+   width: 48px;
+   height: 48px;
+}
+.uky {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -250px -500px;
+   width: 48px;
+   height: 48px;
+}
+.ulam {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -300px -500px;
+   width: 48px;
+   height: 48px;
+}
+.ulou {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -350px -500px;
+   width: 48px;
+   height: 48px;
+}
+.umd {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -400px -500px;
+   width: 48px;
+   height: 48px;
+}
+.umem {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -450px -500px;
+   width: 48px;
+   height: 48px;
+}
+.umi {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -500px -0px;
+   width: 48px;
+   height: 48px;
+}
+.umia {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -500px -50px;
+   width: 48px;
+   height: 48px;
+}
+.umn {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -500px -100px;
+   width: 48px;
+   height: 48px;
+}
+.umo {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -500px -150px;
+   width: 48px;
+   height: 48px;
+}
+.ums {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -500px -200px;
+   width: 48px;
+   height: 48px;
+}
+.umt {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -500px -250px;
+   width: 48px;
+   height: 48px;
+}
+.unc {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -500px -300px;
+   width: 48px;
+   height: 48px;
+}
+.und {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -500px -350px;
+   width: 48px;
+   height: 48px;
+}
+.une {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -500px -400px;
+   width: 48px;
+   height: 48px;
+}
+.unm {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -500px -450px;
+   width: 48px;
+   height: 48px;
+}
+.unod {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -500px -500px;
+   width: 48px;
+   height: 48px;
+}
+.unv {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -0px -550px;
+   width: 48px;
+   height: 48px;
+}
+.uok {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -50px -550px;
+   width: 48px;
+   height: 48px;
+}
+.uor {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -100px -550px;
+   width: 48px;
+   height: 48px;
+}
+.upitt {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -150px -550px;
+   width: 48px;
+   height: 48px;
+}
+.urich {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -200px -550px;
+   width: 48px;
+   height: 48px;
+}
+.usal {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -250px -550px;
+   width: 48px;
+   height: 48px;
+}
+.usc {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -300px -550px;
+   width: 48px;
+   height: 48px;
+}
+.usm {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -350px -550px;
+   width: 48px;
+   height: 48px;
+}
+.utep {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -400px -550px;
+   width: 48px;
+   height: 48px;
+}
+.utn {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -450px -550px;
+   width: 48px;
+   height: 48px;
+}
+.utsu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -500px -550px;
+   width: 48px;
+   height: 48px;
+}
+.utx {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -550px -0px;
+   width: 48px;
+   height: 48px;
+}
+.uut {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -550px -50px;
+   width: 48px;
+   height: 48px;
+}
+.uva {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -550px -100px;
+   width: 48px;
+   height: 48px;
+}
+.uwa {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -550px -150px;
+   width: 48px;
+   height: 48px;
+}
+.uwi {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -550px -200px;
+   width: 48px;
+   height: 48px;
+}
+.uwy {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -550px -250px;
+   width: 48px;
+   height: 48px;
+}
+.vanu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -550px -300px;
+   width: 48px;
+   height: 48px;
+}
+.vat {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -550px -350px;
+   width: 48px;
+   height: 48px;
+}
+.vcu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -550px -400px;
+   width: 48px;
+   height: 48px;
+}
+.vilu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -550px -450px;
+   width: 48px;
+   height: 48px;
+}
+.wasu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -550px -500px;
+   width: 48px;
+   height: 48px;
+}
+.wfu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -550px -550px;
+   width: 48px;
+   height: 48px;
+}
+.wich {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -0px -600px;
+   width: 48px;
+   height: 48px;
+}
+.wkyu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -50px -600px;
+   width: 48px;
+   height: 48px;
+}
+.wssu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -100px -600px;
+   width: 48px;
+   height: 48px;
+}
+.wvu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -150px -600px;
+   width: 48px;
+   height: 48px;
+}
+.xavu {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -200px -600px;
+   width: 48px;
+   height: 48px;
+}
+.yale {
+   background: url('college-spritesheet-48_20260225.png') no-repeat -250px -600px;
+   width: 48px;
+   height: 48px;
+}

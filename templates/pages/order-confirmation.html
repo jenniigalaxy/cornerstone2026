@@ -6,6 +6,71 @@
 <script type="text/javascript">
     window.language = {{{langJson 'optimized_checkout'}}};
 </script>
+<!-- Division D Row 3 -->
+<script type="application/javascript">(function(w,d,t,r,u){w[u]=w[u]||[];w[u].push({'projectId':'10000','properties':{'pixelId':'10206415','he': '<email_address>','hph': '<phone_number>'}});var s=d.createElement(t);s.src=r;s.async=true;s.onload=s.onreadystatechange=function(){var y,rs=this.readyState,c=w[u];if(rs&&rs!="complete"&&rs!="loaded"){return}try{y=YAHOO.ywa.I13N.fireBeacon;w[u]=[];w[u].push=function(p){y([p])};y(c)}catch(e){}};var scr=d.getElementsByTagName(t)[0],par=scr.parentNode;par.insertBefore(s,scr)})(window,document,"script","https://s.yimg.com/wi/ytc.js","dotq");</script>
+<script type="application/javascript">
+window.dotq = window.dotq || [];
+window.dotq.push(
+{
+'projectId': '10000',
+'properties': {
+'pixelId': '10206415',
+'qstrings': {
+'et': 'custom',
+'ec':'purchase',
+'gv':'%%ORDER_AMOUNT%%'
+}
+} } ); </script>
+
+<!-- Division D Row 4 -->
+<!-- Do Not Remove - Turn Tracking Beacon Code - Do Not Remove -->
+<!-- Advertiser Name : Blakeway Worldwide Panoramas -->
+<!-- Beacon Name : Blakeway Purchase and Revenue -->
+<!-- If Beacon is placed on a Transaction or Lead Generation based page, please populate the turn_client_track_id with your order/confirmation ID -->
+<script type="text/javascript">
+  turn_beacon_price = "%%ORDER_AMOUNT%%";
+  turn_client_track_id = "%%ORDER_ID%%";
+</script>
+<script type="text/javascript" src="https://r.turn.com/server/beacon_call.js?b2=ioCZoj8WeZiFloebeCH7eYsSZHYBU2U1a1zbi7n-ervbOSNMOgIC6SQBzaDhzkjETSDy7hgzFGsvZuufSk-r4w">
+</script>
+<noscript>
+  <img border="0" src="https://r.turn.com/r/beacon?b2=ioCZoj8WeZiFloebeCH7eYsSZHYBU2U1a1zbi7n-ervbOSNMOgIC6SQBzaDhzkjETSDy7hgzFGsvZuufSk-r4w&cid=&bprice=">
+</noscript>
+<!-- End Turn Tracking Beacon Code Do Not Remove -->
+
+<!-- Division D Row 5 -->
+<img height="1" width="1" style="border-style:none;" alt="" src="https://insight.adsrvr.org/track/pxl/?adv=lhz10tv&ct=0:r7xn1yn&fmt=3&v=%%ORDER_AMOUNT%%"/>
+
+<!-- Division D Row 6 -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17421181050"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17421181050');
+</script><!-- Event snippet for Blakeway Purchase conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17421181050/hOdrCNmAsYQbEPrAiPNA',
+      'value': %%ORDER_AMOUNT%%,
+      'currency': 'USD',
+      'transaction_id': '',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+
 
 {{{head.scripts}}}
 
@@ -34,3 +99,4 @@
 {{/partial}}
 
 {{> layout/empty}}
+

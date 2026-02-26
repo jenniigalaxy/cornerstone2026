@@ -1,0 +1,173 @@
+---
+category:
+    products:
+        limit: {{theme_settings.categorypage_products_per_page}}
+---
+{{inject "categoryProductsPerPage" theme_settings.categorypage_products_per_page}}
+{{inject "productSku" (pluck category.products 'sku')}}
+{{inject "categoryId" category.id}}
+{{#partial "head"}}
+    {{#if pagination.category.previous}}
+        <link rel="prev" href="{{{pagination.category.previous}}}">
+    {{/if}}
+    {{#if pagination.category.next}}
+        <link rel="next" href="{{{pagination.category.next}}}">
+    {{/if}}
+{{/partial}}
+
+{{#partial "page"}}
+<h1 class="page-heading">{{category.name}}</h1>
+    {{{region name="category_below_header"}}}
+{{#if category.image}}
+    {{> components/common/responsive-img
+        image=category.image
+        fallback_size=theme_settings.zoom_size
+        lazyload=theme_settings.lazyload_mode
+        class="category-header-image"
+    }}
+{{/if}}
+<div class="page">
+<!-- Start header area -->
+
+<div class="category-top"><h3>Shop by Team</h3></div>
+<div class="category-listing-nba">
+	<div class="category-section-nba">
+		<a class="category-item-nba first-nba" href="{{base}}/atlanta-hawks-panoramic-pictures-and-posters/" title="Atlanta Hawks Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba-atlanta-hawks icons-nba-atlanta-hawks"></div><div class="category-icon-link-text" title="Atlanta Hawks">Atlanta Hawks</div>
+		</a>
+	</div>
+	<div class="category-section-nba">
+		<a class="category-item-nba" href="{{base}}/boston-celtics-panoramic-pictures-and-posters/" title="Boston Celtics Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba-boston-celtics icons-nba-boston-celtics"></div><div class="category-icon-link-text" title="Boston Celtics">Boston Celtics</div>
+		</a>
+	</div>
+	<div class="category-section-nba">
+		<a class="category-item-nba" href="{{base}}" title=" Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba- icons-nba-"></div><div class="category-icon-link-text" title=""></div>
+		</a>
+	</div>
+	<div class="category-section-nba">
+		<a class="category-item-nba" href="{{base}}" title=" Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba- icons-nba-"></div><div class="category-icon-link-text" title=""></div>
+		</a>
+	</div>
+	<div class="category-section-nba">
+		<a class="category-item-nba" href="{{base}}" title=" Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba- icons-nba-"></div><div class="category-icon-link-text" title=""></div>
+		</a>
+	</div>
+	<div class="category-section-nba">
+		<a class="category-item-nba" href="{{base}}" title=" Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba- icons-nba-"></div><div class="category-icon-link-text" title=""></div>
+		</a>
+	</div>
+	<div class="category-section-nba">
+		<a class="category-item-nba" href="{{base}}" title=" Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba- icons-nba-"></div><div class="category-icon-link-text" title=""></div>
+		</a>
+	</div>
+	<div class="category-section-nba">
+		<a class="category-item-nba" href="{{base}}" title=" Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba- icons-nba-"></div><div class="category-icon-link-text" title=""></div>
+		</a>
+	</div>
+	<div class="category-section-nba">
+		<a class="category-item-nba" href="{{base}}" title=" Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba- icons-nba-"></div><div class="category-icon-link-text" title=""></div>
+		</a>
+	</div>
+	<div class="category-section-nba">
+		<a class="category-item-nba" href="{{base}}" title=" Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba- icons-nba-"></div><div class="category-icon-link-text" title=""></div>
+		</a>
+	</div><div class="category-section-nba">
+		<a class="category-item-nba" href="{{base}}" title=" Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba- icons-nba-"></div><div class="category-icon-link-text" title=""></div>
+		</a>
+	</div>
+	<div class="category-section-nba">
+		<a class="category-item-nba" href="{{base}}" title=" Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba- icons-nba-"></div><div class="category-icon-link-text" title=""></div>
+		</a>
+	</div>
+	<div class="category-section-nba">
+		<a class="category-item-nba" href="{{base}}" title=" Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba- icons-nba-"></div><div class="category-icon-link-text" title=""></div>
+		</a>
+	</div><div class="category-section-nba">
+		<a class="category-item-nba" href="{{base}}" title=" Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba- icons-nba-"></div><div class="category-icon-link-text" title=""></div>
+		</a>
+	</div>
+	<div class="category-section-nba">
+		<a class="category-item-nba" href="{{base}}" title=" Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba- icons-nba-"></div><div class="category-icon-link-text" title=""></div>
+		</a>
+	</div>
+	<div class="category-section-nba">
+		<a class="category-item-nba" href="{{base}}" title=" Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba- icons-nba-"></div><div class="category-icon-link-text" title=""></div>
+		</a>
+	</div><div class="category-section-nba">
+		<a class="category-item-nba" href="{{base}}" title=" Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba- icons-nba-"></div><div class="category-icon-link-text" title=""></div>
+		</a>
+	</div>
+	<div class="category-section-nba">
+		<a class="category-item-nba" href="{{base}}" title=" Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba- icons-nba-"></div><div class="category-icon-link-text" title=""></div>
+		</a>
+	</div>
+	<div class="category-section-nba">
+		<a class="category-item-nba" href="{{base}}" title=" Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba- icons-nba-"></div><div class="category-icon-link-text" title=""></div>
+		</a>
+	</div>
+	<div class="category-section-nba">
+		<a class="category-item-nba" href="{{base}}" title=" Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba- icons-nba-"></div><div class="category-icon-link-text" title=""></div>
+		</a>
+	</div>
+	<div class="category-section-nba">
+		<a class="category-item-nba" href="{{base}}" title=" Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba- icons-nba-"></div><div class="category-icon-link-text" title=""></div>
+		</a>
+	</div>
+	<div class="category-section-nba">
+		<a class="category-item-nba" href="{{base}}" title=" Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba- icons-nba-"></div><div class="category-icon-link-text" title=""></div>
+		</a>
+	</div>
+	<div class="category-section-nba">
+		<a class="category-item-nba" href="{{base}}" title=" Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba- icons-nba-"></div><div class="category-icon-link-text" title=""></div>
+		</a>
+	</div>
+	<div class="category-section-nba">
+		<a class="category-item-nba" href="{{base}}" title=" Panoramic Pictures and Posters | Fan Cave Decor">
+			<div class="category-link-icon icons-mobile-nba- icons-nba-"></div><div class="category-icon-link-text" title=""></div>
+		</a>
+	</div>
+	
+	
+	
+	
+	
+	
+</div>
+
+<!-- End custom area -->
+    {{#or category.subcategories category.faceted_search_enabled category.shop_by_price}}
+    {{/or}}
+    <main class="page-content" id="product-listing-container">
+        {{> components/category/product-listing}}
+    </main>
+
+    <div class="page-region">
+        {{{region name="category_below_content"}}}
+    </div>
+</div>
+{{{category.description}}}
+{{> components/common/breadcrumbs breadcrumbs=breadcrumbs}}
+{{/partial}}
+{{> layout/base}}

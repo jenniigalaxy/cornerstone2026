@@ -1,70 +1,112 @@
-.framing {
-   background: url('home-spritesheet-64_20260226.png') no-repeat -0px -0px;
+.icons-mobile-home-framing {
+   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/home-spritesheet-64_20260226.png') no-repeat -0px -0px;
    width: 64px;
    height: 64px;
+   zoom:0.5;
+   -moz-transform:scale(0.5);
+   -moz-transform-origin: -0px -0px;
 }
-.golfhorse {
-   background: url('home-spritesheet-64_20260226.png') no-repeat -0px -66px;
+.icons-mobile-home-golfhorse {
+   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/home-spritesheet-64_20260226.png') no-repeat -0px -66px;
    width: 64px;
    height: 64px;
+   zoom:0.5;
+   -moz-transform:scale(0.5);
+   -moz-transform-origin: ;
 }
-.icons {
-   background: url('home-spritesheet-64_20260226.png') no-repeat -66px -0px;
+.icons-mobile-home-icons {
+   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/home-spritesheet-64_20260226.png') no-repeat -66px -0px;
    width: 64px;
    height: 64px;
+   zoom:0.5;
+   -moz-transform:scale(0.5);
+   -moz-transform-origin: ;
 }
-.lighthouse {
-   background: url('home-spritesheet-64_20260226.png') no-repeat -66px -66px;
+.icons-mobile-home-lighthouse {
+   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/home-spritesheet-64_20260226.png') no-repeat -66px -66px;
    width: 64px;
    height: 64px;
+   zoom:0.5;
+   -moz-transform:scale(0.5);
+   -moz-transform-origin: ;
 }
-.mlb {
-   background: url('home-spritesheet-64_20260226.png') no-repeat -0px -132px;
+.icons-mobile-home-mlb {
+   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/home-spritesheet-64_20260226.png') no-repeat -0px -132px;
    width: 64px;
    height: 64px;
+   zoom:0.5;
+   -moz-transform:scale(0.5);
+   -moz-transform-origin: ;
 }
-.nascar {
-   background: url('home-spritesheet-64_20260226.png') no-repeat -66px -132px;
+.icons-mobile-home-nascar {
+   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/home-spritesheet-64_20260226.png') no-repeat -66px -132px;
    width: 64px;
    height: 64px;
+   zoom:0.5;
+   -moz-transform:scale(0.5);
+   -moz-transform-origin: ;
 }
-.nationalparks {
-   background: url('home-spritesheet-64_20260226.png') no-repeat -132px -0px;
+.icons-mobile-home-nationalparks {
+   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/home-spritesheet-64_20260226.png') no-repeat -132px -0px;
    width: 64px;
    height: 64px;
+   zoom:0.5;
+   -moz-transform:scale(0.5);
+   -moz-transform-origin: ;
 }
-.ncaa {
-   background: url('home-spritesheet-64_20260226.png') no-repeat -132px -66px;
+.icons-mobile-home-ncaa {
+   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/home-spritesheet-64_20260226.png') no-repeat -132px -66px;
    width: 64px;
    height: 64px;
+   zoom:0.5;
+   -moz-transform:scale(0.5);
+   -moz-transform-origin: ;
 }
-.nfl {
-   background: url('home-spritesheet-64_20260226.png') no-repeat -132px -132px;
+.icons-mobile-home-nfl {
+   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/home-spritesheet-64_20260226.png') no-repeat -132px -132px;
    width: 64px;
    height: 64px;
+   zoom:0.5;
+   -moz-transform:scale(0.5);
+   -moz-transform-origin: ;
 }
-.nhl {
-   background: url('home-spritesheet-64_20260226.png') no-repeat -0px -198px;
+.icons-mobile-home-nhl {
+   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/home-spritesheet-64_20260226.png') no-repeat -0px -198px;
    width: 64px;
    height: 64px;
+   zoom:0.5;
+   -moz-transform:scale(0.5);
+   -moz-transform-origin: ;
 }
-.skylines {
-   background: url('home-spritesheet-64_20260226.png') no-repeat -66px -198px;
+.icons-mobile-home-skylines {
+   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/home-spritesheet-64_20260226.png') no-repeat -66px -198px;
    width: 64px;
    height: 64px;
+   zoom:0.5;
+   -moz-transform:scale(0.5);
+   -moz-transform-origin: ;
 }
-.usskylines {
-   background: url('home-spritesheet-64_20260226.png') no-repeat -132px -198px;
+.icons-mobile-home-usskylines {
+   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/home-spritesheet-64_20260226.png') no-repeat -132px -198px;
    width: 64px;
    height: 64px;
+   zoom:0.5;
+   -moz-transform:scale(0.5);
+   -moz-transform-origin: ;
 }
-.worldskylines {
-   background: url('home-spritesheet-64_20260226.png') no-repeat -198px -0px;
+.icons-mobile-home-worldskylines {
+   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/home-spritesheet-64_20260226.png') no-repeat -198px -0px;
    width: 64px;
    height: 64px;
+   zoom:0.5;
+   -moz-transform:scale(0.5);
+   -moz-transform-origin: ;
 }
-.nba {
-   background: url('home-spritesheet-64_20260226.png') no-repeat -198px -66px;
+.icons-mobile-home-nba {
+   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/home-spritesheet-64_20260226.png') no-repeat -198px -66px;
    width: 64px;
    height: 64px;
+   zoom:0.5;
+   -moz-transform:scale(0.5);
+   -moz-transform-origin: ;
 }

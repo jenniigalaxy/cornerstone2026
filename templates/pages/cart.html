@@ -7,8 +7,7 @@ cart: true
 {{inject 'multiCouponUIEnabled' cart.multi_coupon_ui_enabled}}
 <div class="page">
 
-    <div class="page-content" data-cart>
-        {{> components/common/breadcrumbs breadcrumbs=breadcrumbs}}
+    <div class="page-content page-cart-content" data-cart>
 
         {{> components/cart/page-title}}
 
@@ -19,22 +18,25 @@ cart: true
         {{#if cart.items.length}}
             <div class="loadingOverlay"></div>
 
-            <div data-cart-content class="cart-content-padding-right">
+            <div data-cart-content class="cart-content-padding-right data-cart-content-left">
                 {{> components/cart/content}}
             </div>
-
+	    <div class="cart-continue">
+                <div class="cart-actions">
+                    <a class="button" href="https://www.panoramas.com" title="Continue Shopping">Continue Shopping</a>
+                </div>
+            </div>
             {{#if cart.multi_coupon_ui_enabled}}
                 <div data-cart-coupons class="cart-content-padding-right">
                     {{> components/cart/coupons}}
                 </div>
             {{/if}}
 
-            <div data-cart-totals class="cart-content-padding-right">
+            <div data-cart-totals class="cart-content-padding-right data-cart-totals-right">
                 {{> components/cart/totals}}
             </div>
-
             {{{region name="cart_below_totals"}}}
-
+            <div class="cart-checkout-bottom">
             {{#or customer (unless settings.hide_price_from_guests)}}
                 {{#if cart.show_primary_checkout_button}}
                     <div class="cart-actions cart-content-padding-right">

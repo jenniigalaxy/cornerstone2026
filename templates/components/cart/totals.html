@@ -87,31 +87,23 @@
         </li>
     {{/if}}
     {{#if settings.gift_certificates_enabled}}
-        {{#unless cart.multi_coupon_ui_enabled}}
-            {{#each cart.gift_certificates}}
-                <li class="cart-total">
-                    <div class="cart-total-label">
-                        <strong>{{lang 'cart.gift_certificates.code_label' code=code}}</strong>
-                        <span>
-                            {{remaining.formatted}} | <a href="{{remove_url}}">{{lang 'cart.gift_certificates.remove'}}</a>
-                        </span>
-                    </div>
-                    <div class="cart-total-value">
-                        {{used.formatted}}
-                    </div>
-                </li>
-            {{/each}}
-        {{/unless}}
-        <li class="cart-total {{#if cart.multi_coupon_ui_enabled}}cart-total-gift-certificate{{/if}}">
+        {{#each cart.gift_certificates}}
+            <li class="cart-total">
+                <div class="cart-total-label">
+                    {{lang 'cart.gift_certificates.code_label' code=code}}
+                    <span>
+                        {{remaining.formatted}} | <a href="{{remove_url}}">{{lang 'cart.gift_certificates.remove'}}</a>
+                    </span>
+                </div>
+                <div class="cart-total-value">
+                    {{used.formatted}}
+                </div>
+            </li>
+        {{/each}}
+        <li class="cart-total cart-total-gift-certificate">
             <div class="cart-total-label">
-                <strong>{{lang 'cart.gift_certificates.gift_certificate'}}{{#unless cart.multi_coupon_ui_enabled}}:{{/unless}}</strong>
-                {{#if cart.multi_coupon_ui_enabled}}
-                    {{> components/cart/gift-certificate}}
-                {{/if}}
+                {{lang 'cart.gift_certificates.gift_certificate'}}:
             </div>
-            {{#unless cart.multi_coupon_ui_enabled}}
-                {{> components/cart/gift-certificate}}
-            {{/unless}}
             {{> components/cart/gift-certificate-input}}
         </li>
         {{#if cart.multi_coupon_ui_enabled}}

@@ -124,7 +124,7 @@
             {{/each}}
         {{/if}}
     {{/if}}
-    <li class="cart-total {{#if cart.multi_coupon_ui_enabled}}cart-total-with-savings{{/if}}">
+    <li class="cart-total cart-grandtotal-bottom">
         {{#if cart.multi_coupon_ui_enabled}}
             <div class="cart-total-label">
                 <strong>{{lang 'cart.checkout.total'}}</strong>
@@ -156,7 +156,7 @@
         {{#if included}}
             <li class="cart-total">
                 <div class="cart-total-label">
-                    <strong>{{concat name (lang 'cart.included_in_total')}}{{#unless ../cart.multi_coupon_ui_enabled}}:{{/unless}}</strong>
+                    {{concat name (lang 'cart.included_in_total')}}:
                 </div>
                 <div class="cart-total-value">
                     <span>{{cost.formatted}}</span>

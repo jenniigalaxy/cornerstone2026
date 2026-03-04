@@ -127,7 +127,7 @@
     <li class="cart-total cart-grandtotal-bottom">
         {{#if cart.multi_coupon_ui_enabled}}
             <div class="cart-total-label">
-                <strong>{{lang 'cart.checkout.total'}}</strong>
+                {{lang 'cart.checkout.total'}}
             </div>
             <div class="cart-total-value cart-total-grandTotal">
                 {{#or customer (unless settings.hide_price_from_guests) }}

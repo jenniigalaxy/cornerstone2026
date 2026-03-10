@@ -26,11 +26,6 @@ cart: true
                     <a class="button" href="https://www.panoramas.com" title="Continue Shopping">Continue Shopping</a>
                 </div>
             </div>
-            {{#if cart.multi_coupon_ui_enabled}}
-                <div data-cart-coupons class="cart-content-padding-right">
-                    {{> components/cart/coupons}}
-                </div>
-            {{/if}}
 
             <div data-cart-totals class="cart-content-padding-right data-cart-totals-right">
                 {{> components/cart/totals}}

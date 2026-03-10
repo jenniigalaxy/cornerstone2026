@@ -106,23 +106,6 @@
             </div>
             {{> components/cart/gift-certificate-input}}
         </li>
-        {{#if cart.multi_coupon_ui_enabled}}
-            {{#each cart.gift_certificates}}
-                <li class="cart-total cart-total-gift-certificate-list-item">
-                    <div class="cart-total-label">
-                        <i class="icon" aria-hidden="true"><svg><use href="#icon-gifts" /></svg></i>
-                        <span>{{code}}</span>
-                        {{#if remaining.value}}
-                            <span>| {{remaining.formatted}} left</span>
-                        {{/if}}
-                        <a href="{{remove_url}}">{{lang 'cart.gift_certificates.remove'}}</a>
-                    </div>
-                    <div class="cart-total-value">
-                        {{used.formatted}}
-                    </div>
-                </li>
-            {{/each}}
-        {{/if}}
     {{/if}}
     <li class="cart-total cart-grandtotal-bottom">
         {{#if cart.multi_coupon_ui_enabled}}

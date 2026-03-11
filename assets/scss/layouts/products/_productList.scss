@@ -1347,6 +1347,11 @@ article.category-college-header, article.category-nba-header, article.category-n
 		margin-bottom:3rem;
 	}
 }
+@media screen and (min-width:801px) {
+	.nonlicensed-mobile-menu {
+		display:none;
+	}
+}
 
 @media screen and (max-width:800px) {
 	.college-splash-item.college-splash-championship a.college-splash-link .college-splash-banner,
@@ -1382,6 +1387,9 @@ article.category-college-header, article.category-nba-header, article.category-n
 	}
 	.nonlicensed-mobile-menu a {
 		text-decoration:none;
+	}
+	.nonlicensed-mobile-menu li {
+		list-style-type:none;
 	}
 	.nonlicensed-item-icons {
 	   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/menu-top-spritesheet-48_20260217.png') no-repeat -50px -0px;

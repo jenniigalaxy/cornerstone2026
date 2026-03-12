@@ -572,7 +572,7 @@ article.category-college-header, article.category-nba-header, article.category-n
 .category-college {
 	margin-top:3rem;
 }
-.college-splash .top-splash-bar, .nba-splash .top-splash-bar, .nonlicensed-splash .top-splash-bar, .nfl-splash .top-splash-bar, .nhl-splash .top-splash-bar, .nascar-splash .top-splash-bar, .mlb-splash .top-splash-bar, .usskyline-splash .top-splash-bar, .worldskyline-splash .top-splash-bar, .natpark-splash .top-splash-bar, .icon-splash .top-splash-bar, .golfhorse-splash .top-splash-bar, .misccat-splash .top-splash-bar {
+.college-splash .top-splash-bar, .nba-splash .top-splash-bar, .nonlicensed-splash .top-splash-bar, .licensed-splash .top-splash-bar, .nfl-splash .top-splash-bar, .nhl-splash .top-splash-bar, .nascar-splash .top-splash-bar, .mlb-splash .top-splash-bar, .usskyline-splash .top-splash-bar, .worldskyline-splash .top-splash-bar, .natpark-splash .top-splash-bar, .icon-splash .top-splash-bar, .golfhorse-splash .top-splash-bar, .misccat-splash .top-splash-bar {
 	display:flex;
 	margin-top:3.25rem;
 	width:100%;
@@ -580,7 +580,7 @@ article.category-college-header, article.category-nba-header, article.category-n
 	margin-left:auto;
 	margin-right:auto;
 }
-.nascar-splash .mid-splash-bar, .mlb-splash .mid-splash-bar, .usskyline-splash .mid-splash-bar, .worldskyline-splash .med-splash-bar, .natpark-splash .mid-splash-bar, .icon-splash .mid-splash-bar, .golfhorse-splash .mid-splash-bar, .misccat-splash .mid-splash-bar {
+.nascar-splash .mid-splash-bar, .licensed-splash .mid-splash-bar, .mlb-splash .mid-splash-bar, .usskyline-splash .mid-splash-bar, .worldskyline-splash .med-splash-bar, .natpark-splash .mid-splash-bar, .icon-splash .mid-splash-bar, .golfhorse-splash .mid-splash-bar, .misccat-splash .mid-splash-bar {
 	display:flex;
 	width:100%;
 	max-width:1900px;
@@ -594,7 +594,7 @@ article.category-college-header, article.category-nba-header, article.category-n
 .golfhorse-splash .mid-splash-bar {
 	margin-bottom:0;
 }
-.college-splash-link, .nba-splash-link, .nfl-splash-link, .nonlicensed-splash-link, .nhl-splash-link, .nascar-splash-link, .mlb-splash-link, .usskyline-splash-link, .worldskyline-splash-link, .natpark-splash-link, .icon-splash-link, .golfhorse-splash-link, .misccat-splash-link {
+.college-splash-link, .nba-splash-link, .nfl-splash-link, .nonlicensed-splash-link, .licensed-splash-link, .nhl-splash-link, .nascar-splash-link, .mlb-splash-link, .usskyline-splash-link, .worldskyline-splash-link, .natpark-splash-link, .icon-splash-link, .golfhorse-splash-link, .misccat-splash-link {
 	height:100%;
 	width:100%;
 	text-decoration:none;
@@ -603,7 +603,7 @@ article.category-college-header, article.category-nba-header, article.category-n
 .college-splash-link img, .nba-splash-link img, .nfl-splash-link img, .mlb-splash-link img, {
 	display:none;
 }
-.college-splash-link h3, .nba-splash-link h3, .nonlicensed-splash-link h3, .nfl-splash-link h3, .nhl-splash-link h3, .nascar-splash-link h3, .mlb-splash-link h3, .usskyline-splash-link h3, .worldskyline-splash-link h3, .natpark-splash-link h3, .icon-splash-link h3, .golfhorse-splash-link h3, .misccat-splash-link h3 {
+.college-splash-link h3, .nba-splash-link h3, .nonlicensed-splash-link h3, .licensed-splash-link h3, .nfl-splash-link h3, .nhl-splash-link h3, .nascar-splash-link h3, .mlb-splash-link h3, .usskyline-splash-link h3, .worldskyline-splash-link h3, .natpark-splash-link h3, .icon-splash-link h3, .golfhorse-splash-link h3, .misccat-splash-link h3 {
 	color: #FFF;
 	font-weight: 700;
 	padding-top: 0;
@@ -612,7 +612,7 @@ article.category-college-header, article.category-nba-header, article.category-n
 	line-height: 1.75rem;
 	margin:1.9rem 0 1rem;
 }
-.college-splash-banner, .nba-splash-banner, .nonlicensed-splash-banner, .nfl-splash-banner, .nhl-splash-banner, .nascar-splash-banner, .mlb-splash-banner, .usskyline-splash-banner, .worldskyline-splash-banner, .natpark-splash-banner, .icon-splash-banner, .golfhorse-splash-banner, .misccat-splash-banner {
+.college-splash-banner, .nba-splash-banner, .nonlicensed-splash-banner, .licensed-splash-banner, .nfl-splash-banner, .nhl-splash-banner, .nascar-splash-banner, .mlb-splash-banner, .usskyline-splash-banner, .worldskyline-splash-banner, .natpark-splash-banner, .icon-splash-banner, .golfhorse-splash-banner, .misccat-splash-banner {
 	background:rgba(0,0,0,0.8);
 	padding:0 2rem 2rem;
 	width:335px;
@@ -636,7 +636,7 @@ article.category-college-header, article.category-nba-header, article.category-n
 .golfhorse-splash-banner {
 	width:310px;
 }
-.college-splash-link .splash-button, .nonlicensed-splash-link .splash-button, .nba-splash-link .splash-button, .nfl-splash-link .splash-button, .nhl-splash-link .splash-button, .nascar-splash-link .splash-button, .mlb-splash-link .splash-button, .usskyline-splash-link .splash-button, .worldskyline-splash-link .splash-button, .natpark-splash-link .splash-button, .icon-splash-link .splash-button, .golfhorse-splash-link .splash-button, .misccat-splash-link .splash-button {
+.college-splash-link .splash-button, .nonlicensed-splash-link .splash-button, .licensed-splash-link .splash-button, .nba-splash-link .splash-button, .nfl-splash-link .splash-button, .nhl-splash-link .splash-button, .nascar-splash-link .splash-button, .mlb-splash-link .splash-button, .usskyline-splash-link .splash-button, .worldskyline-splash-link .splash-button, .natpark-splash-link .splash-button, .icon-splash-link .splash-button, .golfhorse-splash-link .splash-button, .misccat-splash-link .splash-button {
 	background:none;
 	color:#FFF;
 	border:2px solid #FFF;
@@ -1074,7 +1074,7 @@ article.category-college-header, article.category-nba-header, article.category-n
 .nonlicensed-splash-item.nonlicensed-splash-usskylines a.nonlicensed-splash-link .nonlicensed-splash-banner,
 .nonlicensed-splash-item.nonlicensed-splash-worldskylines a.nonlicensed-splash-link .nonlicensed-splash-banner,
 .nonlicensed-splash-item.nonlicensed-splash-nationalparks a.nonlicensed-splash-link .nonlicensed-splash-banner,
-.nonlicensed-splash-item.nonlicensed-splash-icons a.nonlicensed-splash-link .nonlicensed-splash-banner {
+.nonlicensed-splash-item.nonlicensed-splash-icons a.nonlicensed-splash-link .nonlicensed-splash-banner, {
 	top:102px;
 	position:relative;
 }
@@ -1108,6 +1108,60 @@ article.category-college-header, article.category-nba-header, article.category-n
 .nonlicensed-splash-icons {
 	flex:1;
 	background:url("https://cdn11.bigcommerce.com/s-xexc16uo8q/content/images/landing/nonlicensed/worldicon_20260311.jpg") left center no-repeat,#333;
+	background-size:cover;
+	margin-left:1.25rem;
+	margin-bottom:2.5rem;
+	height:250px;
+	display:inline-block;
+}
+.licensed-splash-college {
+	flex:1;
+	background:url("https://cdn11.bigcommerce.com/s-xexc16uo8q/content/images/landing/licensed/college_20260312.jpg") left center no-repeat;
+	background-size:cover;
+	margin-right:1.25rem;
+	margin-bottom:2.5rem;
+	height:250px;
+	display:inline-block;
+}
+.licensed-splash-nfl {
+	flex:1;
+	background:url("https://cdn11.bigcommerce.com/s-xexc16uo8q/content/images/landing/licensed/nfl_20260312.jpg") left center no-repeat;
+	background-size:cover;
+	margin-left:1.25rem;
+	margin-bottom:2.5rem;
+	height:250px;
+	display:inline-block;
+}
+.licensed-splash-nhl {
+	flex:1;
+	background:url("https://cdn11.bigcommerce.com/s-xexc16uo8q/content/images/landing/licensed/nhl_20260312.jpg") left center no-repeat;
+	background-size:cover;
+	margin-right:1.25rem;
+	margin-bottom:2.5rem;
+	height:250px;
+	display:inline-block;
+}
+.licensed-splash-nba {
+	flex:1;
+	background:url("https://cdn11.bigcommerce.com/s-xexc16uo8q/content/images/landing/licensed/nba_20260312.jpg") left center no-repeat;
+	background-size:cover;
+	margin-left:1.25rem;
+	margin-bottom:2.5rem;
+	height:250px;
+	display:inline-block;
+}
+.licensed-splash-mlb {
+	flex:1;
+	background:url("https://cdn11.bigcommerce.com/s-xexc16uo8q/content/images/landing/licensed/mlb_20260312b.jpg") left center no-repeat;
+	background-size:cover;
+	margin-right:1.25rem;
+	margin-bottom:2.5rem;
+	height:250px;
+	display:inline-block;
+}
+.licensed-splash-nascar {
+	flex:1;
+	background:url("https://cdn11.bigcommerce.com/s-xexc16uo8q/content/images/landing/licensed/nascar_20260312.jpg") left center no-repeat;
 	background-size:cover;
 	margin-left:1.25rem;
 	margin-bottom:2.5rem;

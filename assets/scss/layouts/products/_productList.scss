@@ -1418,9 +1418,13 @@ article.category-college-header, article.category-nba-header, article.category-n
 		margin-bottom:3rem;
 	}
 }
+
 @media screen and (min-width:801px) {
 	.nonlicensed-mobile-menu {
 		display:none;
+	}
+	.licensed-mobile-menu {
+		display:block;
 	}
 }
 
@@ -1505,8 +1509,84 @@ article.category-college-header, article.category-nba-header, article.category-n
 	   zoom:0.5;
 	   -moz-transform:scale(0.5);
 	   -moz-transform-origin: -150px -50px;
+	}	
+.licensed-mobile-menu {
+	line-height: 1.8rem;
+    	font-weight: 500;
+    	letter-spacing: -0.5px;
+}
+.licensed-mobile-menu a {
+	text-decoration:none;
+}
+.licensed-mobile-menu li {
+	list-style-type:none;
+}
+.licensed-item-college {
+	   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/menu-top-spritesheet-48_20260217.png') no-repeat -100px -100px;
+	   width: 48px;
+	   height: 48px;
+	   float:left;
+	   margin-right:15px;
+	   margin-top:-3px;
+	   zoom:0.5;
+	   -moz-transform:scale(0.5);
+	   -moz-transform-origin: -100px -100px;
 	}
-	
+	.licensed-item-nfl {
+	   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/menu-top-spritesheet-48_20260217.png') no-repeat -0px -150px;
+	   width: 48px;
+	   height: 48px;
+	   float:left;
+	   margin-right:15px;
+	   margin-top:-3px;
+	   zoom:0.5;
+	   -moz-transform:scale(0.5);
+	   -moz-transform-origin: -0px -150px;
+	}
+	.licensed-item-nhl {
+	   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/menu-top-spritesheet-48_20260217.png') no-repeat -50px -150px;
+	   width: 48px;
+	   height: 48px;
+	   float:left;
+	   margin-right:15px;
+	   margin-top:-3px;
+	   zoom:0.5;
+	   -moz-transform:scale(0.5);
+	   -moz-transform-origin: -50px -150px;
+	}
+	.licensed-item-nba {
+	   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/menu-top-spritesheet-48_20260217.png') no-repeat -100px -50px;
+	   width: 48px;
+	   height: 48px;
+	   float:left;
+	   margin-right:15px;
+	   margin-top:-3px;
+	   zoom:0.5;
+	   -moz-transform:scale(0.5);
+	   -moz-transform-origin: -100px -50px;
+	}
+	.licensed-item-mlb {
+	   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/menu-top-spritesheet-48_20260217.png') no-repeat -0px -100px;
+	   width: 48px;
+	   height: 48px;
+	   float:left;
+	   margin-right:15px;
+	   margin-top:-3px;
+	   zoom:0.5;
+	   -moz-transform:scale(0.5);
+	   -moz-transform-origin: -0px -100px;
+	}
+	.licensed-item-nascar {
+	   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/menu-top-spritesheet-48_20260217.png') no-repeat -50px -100px;
+	   width: 48px;
+	   height: 48px;
+	   float:left;
+	   margin-right:15px;
+	   margin-top:-3px;
+	   zoom:0.5;
+	   -moz-transform:scale(0.5);
+	   -moz-transform-origin: -50px -100px;
+	}
 }
 
 @media screen and (max-width:585px) {

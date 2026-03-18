@@ -42,6 +42,8 @@ export default class ProductDetails extends ProductDetailsBase {
         });
 
         const $productOptionsElement = $('[data-product-option-change]', $form);
+        const hasOptions = $productOptionsElement.html().trim().length;
+        const hasDefaultOptions = $productOptionsElement.find('[data-default]').length;
         const $productSwatchGroup = $('[id*="attribute_swatch"]', $form);
         const $productSwatchLabels = $('.form-option-swatch', $form);
         const placeSwatchLabelImage = (_, label) => {

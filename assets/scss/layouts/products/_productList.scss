@@ -1420,15 +1420,18 @@ article.category-college-header, article.category-nba-header, article.category-n
 }
 
 @media screen and (min-width:801px) {
-	.nonlicensed-mobile-menu {
+	.nonlicensed-mobile-menu, .licensed-mobile-menu {
 		display:none;
 	}
-	.licensed-mobile-menu {
-		display:block;
+	.category-listing-licensed {
+	display:block;
 	}
 }
 
 @media screen and (max-width:800px) {
+	.category-listing-licensed {
+		display:none;
+	}
 	.college-splash-item.college-splash-championship a.college-splash-link .college-splash-banner,
 	.college-splash-item.college-splash-bowls a.college-splash-link .college-splash-banner,
 	.nascar-splash-item.nascar-splash-daytona a.nascar-splash-link .nascar-splash-banner,
@@ -1455,15 +1458,15 @@ article.category-college-header, article.category-nba-header, article.category-n
 	.category-top {
 		margin:-2em 0 3em;
 	}
-	.nonlicensed-mobile-menu {
+	.nonlicensed-mobile-menu, .licensed-mobile-menu {
 		line-height: 1.8rem;
     		font-weight: 500;
     		letter-spacing: -0.5px;
 	}
-	.nonlicensed-mobile-menu a {
+	.nonlicensed-mobile-menu a, .licensed-mobile-menu a {
 		text-decoration:none;
 	}
-	.nonlicensed-mobile-menu li {
+	.nonlicensed-mobile-menu li, .nonlicensed-mobile-menu li {
 		list-style-type:none;
 	}
 	.nonlicensed-item-icons {
@@ -1510,18 +1513,7 @@ article.category-college-header, article.category-nba-header, article.category-n
 	   -moz-transform:scale(0.5);
 	   -moz-transform-origin: -150px -50px;
 	}	
-.licensed-mobile-menu {
-	line-height: 1.8rem;
-    	font-weight: 500;
-    	letter-spacing: -0.5px;
-}
-.licensed-mobile-menu a {
-	text-decoration:none;
-}
-.licensed-mobile-menu li {
-	list-style-type:none;
-}
-.licensed-item-college {
+	.licensed-item-college {
 	   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/menu-top-spritesheet-48_20260217.png') no-repeat -100px -100px;
 	   width: 48px;
 	   height: 48px;
@@ -1627,24 +1619,24 @@ article.category-college-header, article.category-nba-header, article.category-n
 	display:grid;
 	grid-template-columns: repeat(auto-fill, minmax(200px, auto));
 }
-.category-listing-nfl, .category-listing-nba, .category-listing-nhl {
+.category-listing-nfl, .category-listing-nba, .category-listing-nhl, .category-listing-licensed {
 	grid-template-columns: repeat(auto-fill, minmax(200px, auto));
 }
 .category-listing-nascarlong {
 	grid-template-columns: repeat(auto-fill, minmax(220px, auto));
 }
-.category-listing a, .category-listing-home a, .category-listing-nfl a, .category-listing-nba a, .category-listing-nhl a, .category-listing-duo a, .category-listing-nascarlong a, .category-listing-long a, .category-listing-nologo a, .category-listing-nologo-short a, .facetLabel {
+.category-listing a, .category-listing-home a, .category-listing-nfl a, .category-listing-nba a, .category-listing-licensed a, .category-listing-nhl a, .category-listing-duo a, .category-listing-nascarlong a, .category-listing-long a, .category-listing-nologo a, .category-listing-nologo-short a, .facetLabel {
     text-decoration: none;
 }
-.category-section-college, .category-section-nba, .category-section-nfl, .category-section-nhl, .category-section-nascar, .category-section-mlb, .category-section-home {
+.category-section-college, .category-section-nba, .category-section-nfl, .category-section-licensed, .category-section-nhl, .category-section-nascar, .category-section-mlb, .category-section-home {
 	padding: .75rem .5rem 0;
 	text-align:center;
 	margin:0 .25rem 2rem;
 }
-.category-item-college, .category-section-nba, .category-item-nfl, .category-item-nhl, .category-item-mlb, .category-item-nascar, .category-item-nfl, .category-item-nhl, .category-item-home {
+.category-item-college, .category-section-nba, .category-item-nfl, .category-item-licensed, .category-item-nhl, .category-item-mlb, .category-item-nascar, .category-item-nfl, .category-item-nhl, .category-item-home {
     text-align: center;
 }
-.category-item-college a, .category-item-nba a, .category-item-nfl a, .category-item-nhl a, .category-item-nascar a, .category-item-mlb a, .category-item-home a {
+.category-item-college a, .category-item-nba a, .category-item-nfl a, .category-item-licensed a, .category-item-nhl a, .category-item-nascar a, .category-item-mlb a, .category-item-home a {
 	width:100%;
 	height:100;
 	display:block;

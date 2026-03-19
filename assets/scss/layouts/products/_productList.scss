@@ -1615,7 +1615,7 @@ article.category-college-header, article.category-nba-header, article.category-n
 	font-weight:500;
 	letter-spacing:-.5px;
 }
-.category-listing, .category-listing-nfl, .category-listing-nba, .category-listing-nhl, .category-listing-nascarlong {
+.category-listing, .category-listing-nfl, .category-listing-licensed, .category-listing-nba, .category-listing-nhl, .category-listing-nascarlong {
 	display:grid;
 	grid-template-columns: repeat(auto-fill, minmax(200px, auto));
 }
@@ -3597,6 +3597,38 @@ article.category-college-header, article.category-nba-header, article.category-n
 }
 .icons-nascar-wgi {
    background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/nascar-spritesheet-100_20260226.png') no-repeat -510px -102px;
+   width: 100px;
+   height: 100px;
+}
+
+// Licensed Icons
+.icons-licensed-college {
+   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/licensed-spritesheet-100_20260318b.png') no-repeat -0px -0px;
+   width: 100px;
+   height: 100px;
+}
+.icons-licensed-mlb {
+   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/licensed-spritesheet-100_20260318b.png') no-repeat -0px -102px;
+   width: 100px;
+   height: 100px;
+}
+.icons-licensed-nhl {
+   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/licensed-spritesheet-100_20260318b.png') no-repeat -102px -0px;
+   width: 100px;
+   height: 100px;
+}
+.icons-licensed-nascar {
+   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/licensed-spritesheet-100_20260318b.png') no-repeat -102px -102px;
+   width: 100px;
+   height: 100px;
+}
+.icons-licensed-nfl {
+   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/licensed-spritesheet-100_20260318b.png') no-repeat -0px -204px;
+   width: 100px;
+   height: 100px;
+}
+.icons-licensed-nba {
+   background: url('https://cdn11.bigcommerce.com/s-xexc16uo8q/content/assets/logos/licensed-spritesheet-100_20260318b.png') no-repeat -102px -204px;
    width: 100px;
    height: 100px;
 }

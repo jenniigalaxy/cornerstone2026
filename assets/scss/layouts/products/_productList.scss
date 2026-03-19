@@ -1714,17 +1714,17 @@ article.category-college-header, article.category-nba-header, article.category-n
 	}
 }
 @media screen and (max-width:999px) {
-	.category-listing, .category-listing-nba, .category-listing-nfl, .category-listing-nhl, .category-listing-nascarlong, .category-listing-home {
+	.category-listing, .category-listing-nba, .category-listing-licensed, .category-listing-nfl, .category-listing-nhl, .category-listing-nascarlong, .category-listing-home {
 		display:block;
 		-webkit-columns: 2;
 		-moz-columns: 2;
 		columns: 2;
 		width:100%;
 	}
-	.first-college, .first-nba, .first-nfl, .first-nhl, .first-nsacar, .first-nascar {
+	.first-college, .first-nba, .first-nfl, .first-nhl, .first-nsacar, .first-nascar, .first-licensed {
 		margin-top:16px !important;
 	}
-	.category-item-college, .category-item-nba, .category-item-nfl, .category-item-nhl, .category-item-nascar, .category-item-mlb, .category-item-home {
+	.category-item-college, .category-item-nba, .category-item-licensed, .category-item-nfl, .category-item-nhl, .category-item-nascar, .category-item-mlb, .category-item-home {
 		display:inline-block;
 		text-align:center;
 		margin:0;
@@ -1732,7 +1732,7 @@ article.category-college-header, article.category-nba-header, article.category-n
 	.category-item-nascar {
 		width:100%;
 	}
-	.category-item-college, .category-item-nba, .category-item-nfl, .category-item-nhl, .category-item-mlb, .category-item-home {
+	.category-item-college, .category-item-nba, .category-item-nfl, .category-item-nhl, .category-item-mlb, .category-item-home, .category-item-licensed {
 		width:100%;
 		text-align:left;
 	}
@@ -1740,10 +1740,10 @@ article.category-college-header, article.category-nba-header, article.category-n
 		float:left;
 		margin:0 1rem 0 0;
 	}
-	.category-section-college:first-child, .category-section-nba:first-child, .category-section-nfl:first-child, .category-section-nhl:first-child {
+	.category-section-college:first-child, .category-section-nba:first-child, .category-section-licensed:first-child, .category-section-nfl:first-child, .category-section-nhl:first-child {
 		padding-top:0;
 	}
-	.category-section-college:last-child, .category-section-nba:last-child, .category-section-nfl:last-child, .category-section-nhl:last-child,  .category-section-nascar:last-child, .category-section-mlb:last-child {
+	.category-section-college:last-child, .category-section-licensed:last-child, .category-section-nba:last-child, .category-section-nfl:last-child, .category-section-nhl:last-child,  .category-section-nascar:last-child, .category-section-mlb:last-child {
 		margin-bottom:2em;
 	}
 	.category-icon-link-text, .category-icon-link-text-nascar {
@@ -1758,7 +1758,7 @@ article.category-college-header, article.category-nba-header, article.category-n
 	.category-name-full {
 		display:inline;
 	}
-	.category-section-college, .category-section-nba, .category-section-nfl, .category-section-nhl, .category-section-mlb, .category-section-nascar, .category-section-home {
+	.category-section-college, .category-section-nba, .category-section-licensed, .category-section-nfl, .category-section-nhl, .category-section-mlb, .category-section-nascar, .category-section-home {
 		margin:0;
 	}
 }

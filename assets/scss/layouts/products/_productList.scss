@@ -1770,7 +1770,7 @@ article.category-college-header, article.category-nba-header, article.category-n
 	}
 }
 @media screen and (max-width:699px) {
-	.category-listing, .category-listing-nba, .category-listing-nfl, .category-listing-nhl, .category-listing-nascarlong, .category-listing-home {
+	.category-listing, .category-listing-nba, .category-listing-licensed, .category-listing-nfl, .category-listing-nhl, .category-listing-nascarlong, .category-listing-home {
 		display:block;
 	}
 	.category-name-full {
@@ -1778,7 +1778,7 @@ article.category-college-header, article.category-nba-header, article.category-n
 	}
 }
 @media screen and (max-width:620px) {
-	.category-listing, .category-listing-nba, .category-listing-nfl, .category-listing-nhl, .category-listing-nascarlong, .category-listing-home {
+	.category-listing, .category-listing-nba, .category-listing-licensed, .category-listing-nfl, .category-listing-nhl, .category-listing-nascarlong, .category-listing-home {
 		-webkit-columns: 1;
 		-moz-columns: 1;
 		columns: 1;
